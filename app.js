@@ -6,5 +6,5 @@ app.get('/', (req, res) => {
     res.send('No se por que no sale!');
   });
 
-app.listen(process.env.PORT || 3000);
+app.listen(3000);
 console.log("server");
